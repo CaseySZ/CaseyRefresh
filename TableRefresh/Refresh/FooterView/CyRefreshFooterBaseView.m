@@ -152,11 +152,11 @@
     // 当前的contentOffset
     CGFloat currentOffsetY = self.scrollView.cy_offsetY;
     // 尾部控件刚好出现的offsetY
-    CGFloat happenOffsetY = [self happenOffsetY];
+    CGFloat reponseRefreshOffsetY = [self reponseRefreshOffsetY];
     // 如果是向下滚动到看不见尾部控件，直接返回
-    if (currentOffsetY <= happenOffsetY) return;
+    if (currentOffsetY <= reponseRefreshOffsetY) return;
     
-    CGFloat pullingPercent = (currentOffsetY - happenOffsetY) / self.cy_height;
+    CGFloat pullingPercent = (currentOffsetY - reponseRefreshOffsetY) / self.cy_height;
     
     // 如果已全部加载，仅设置pullingPercent，然后返回
     if (self.state == CyRefreshStateNoMoreData) {
@@ -167,7 +167,7 @@
     if (self.scrollView.isDragging) {
         self.pullingPercent = pullingPercent;
         // 普通 和 即将刷新 的临界点
-        CGFloat normal2pullingOffsetY = happenOffsetY + self.cy_height;
+        CGFloat normal2pullingOffsetY = reponseRefreshOffsetY + self.cy_height;
         
         if (self.state == CyRefreshStateIdle && currentOffsetY > normal2pullingOffsetY) {
             // 转为即将刷新状态
@@ -194,7 +194,7 @@
 }
 
 #pragma mark 刚好看到上拉刷新控件时的contentOffset.y
-- (CGFloat)happenOffsetY{
+- (CGFloat)reponseRefreshOffsetY{
     
     CGFloat deltaH = [self heightForContentBreakView];
     if (deltaH > 0) {
@@ -312,7 +312,7 @@
             }
             self.lastBottomDelta = bottom - self.scrollView.cy_insetB;
             self.scrollView.cy_insetB = bottom;
-            self.scrollView.cy_offsetY = [self happenOffsetY] + self.cy_height;
+            self.scrollView.cy_offsetY = [self reponseRefreshOffsetY] + self.cy_height;
         } completion:^(BOOL finished) {
             
             if (self.beginRefreshingBlock){
