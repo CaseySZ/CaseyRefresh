@@ -1,16 +1,16 @@
 //
-//  CyRefreshFooterDefaultView.m
+//  CyRefreshHeaderDefaultView.m
 //  TableRefresh
 //
 //  Created by Casey on 05/12/2018.
 //  Copyright © 2018 Casey. All rights reserved.
 //
 
-#import "CyRefreshFooterDefaultView.h"
+#import "CyRefreshHeaderDefaultView.h"
 #import "UIView+CyRefreshFrame.h"
 
 
-@implementation CyRefreshFooterDefaultView{
+@implementation CyRefreshHeaderDefaultView{
     
     UILabel *_descLabel;
 }
@@ -39,13 +39,7 @@
     
     _descLabel.frame = self.bounds;
     
-}
-
-- (void)setState:(CyRefreshState)state{
-    
-    [super setState:state];
-    
-    switch (state) {
+    switch (self.state) {
         case CyRefreshStateIdle:
             _descLabel.text = @"闲置状态";
             break;
@@ -64,13 +58,8 @@
         default:
             break;
     }
-    
 }
 
 
-- (void)dealloc{
-    
-    NSLog(@"%s", __func__);
-}
 
 @end

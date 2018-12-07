@@ -8,10 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		BEB6C653542F624FF960FD2A /* libPods-TableRefresh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5FCB65F89956611A022188A /* libPods-TableRefresh.a */; };
-		C91C8CA621B765FD00952B31 /* UIScrollView+CyInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = C91C8CA521B765FD00952B31 /* UIScrollView+CyInsets.m */; };
-		C91C8CAA21B7A2F600952B31 /* CyRefreshHeaderDefaultView.m in Sources */ = {isa = PBXBuildFile; fileRef = C91C8CA921B7A2F600952B31 /* CyRefreshHeaderDefaultView.m */; };
-		C91C8CAE21B7A98300952B31 /* CyRefreshFooterBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C91C8CAD21B7A98300952B31 /* CyRefreshFooterBaseView.m */; };
-		C91C8CB221B7D08E00952B31 /* CyRefreshFooterDefaultView.m in Sources */ = {isa = PBXBuildFile; fileRef = C91C8CB121B7D08E00952B31 /* CyRefreshFooterDefaultView.m */; };
+		C91C8E3521BA099700952B31 /* UIScrollView+CyInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = C91C8E2621BA099700952B31 /* UIScrollView+CyInsets.m */; };
+		C91C8E3621BA099700952B31 /* UIScrollView+CyRefreshTable.m in Sources */ = {isa = PBXBuildFile; fileRef = C91C8E2821BA099700952B31 /* UIScrollView+CyRefreshTable.m */; };
+		C91C8E3721BA099700952B31 /* UIView+CyRefreshFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = C91C8E2A21BA099700952B31 /* UIView+CyRefreshFrame.m */; };
+		C91C8E3821BA099700952B31 /* CyRefreshFooterBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C91C8E2D21BA099700952B31 /* CyRefreshFooterBaseView.m */; };
+		C91C8E3921BA099700952B31 /* CyRefreshFooterDefaultView.m in Sources */ = {isa = PBXBuildFile; fileRef = C91C8E2F21BA099700952B31 /* CyRefreshFooterDefaultView.m */; };
+		C91C8E3A21BA099700952B31 /* CyRefreshHeaderBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C91C8E3221BA099700952B31 /* CyRefreshHeaderBaseView.m */; };
+		C91C8E3B21BA099700952B31 /* CyRefreshHeaderDefaultView.m in Sources */ = {isa = PBXBuildFile; fileRef = C91C8E3421BA099700952B31 /* CyRefreshHeaderDefaultView.m */; };
 		C9E63A7621B658FE0098628E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E63A7521B658FE0098628E /* AppDelegate.m */; };
 		C9E63A7921B658FE0098628E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E63A7821B658FE0098628E /* ViewController.m */; };
 		C9E63A7C21B658FE0098628E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E63A7A21B658FE0098628E /* Main.storyboard */; };
@@ -20,23 +23,27 @@
 		C9E63A8421B658FF0098628E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E63A8321B658FF0098628E /* main.m */; };
 		C9E63A8F21B65AC60098628E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E63A8D21B65AC60098628E /* SecondViewController.m */; };
 		C9E63A9021B65AC60098628E /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9E63A8E21B65AC60098628E /* SecondViewController.xib */; };
-		C9E63AAF21B67F670098628E /* UIView+CyRefreshFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E63AAD21B67F670098628E /* UIView+CyRefreshFrame.m */; };
-		C9E63AB921B681790098628E /* CyRefreshHeaderBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E63AA221B67EF30098628E /* CyRefreshHeaderBaseView.m */; };
-		C9E63ABC21B681C70098628E /* UIScrollView+CyRefreshTable.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E63ABB21B681C70098628E /* UIScrollView+CyRefreshTable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F40A9A3DAB2582B3A0D407F /* Pods-TableRefresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableRefresh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableRefresh/Pods-TableRefresh.debug.xcconfig"; sourceTree = "<group>"; };
 		9C1A2C49D5F49A9AD9BED708 /* Pods-TableRefresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableRefresh.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableRefresh/Pods-TableRefresh.release.xcconfig"; sourceTree = "<group>"; };
-		C91C8CA421B765FD00952B31 /* UIScrollView+CyInsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+CyInsets.h"; sourceTree = "<group>"; };
-		C91C8CA521B765FD00952B31 /* UIScrollView+CyInsets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CyInsets.m"; sourceTree = "<group>"; };
-		C91C8CA821B7A2F600952B31 /* CyRefreshHeaderDefaultView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CyRefreshHeaderDefaultView.h; sourceTree = "<group>"; };
-		C91C8CA921B7A2F600952B31 /* CyRefreshHeaderDefaultView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CyRefreshHeaderDefaultView.m; sourceTree = "<group>"; };
-		C91C8CAC21B7A98300952B31 /* CyRefreshFooterBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CyRefreshFooterBaseView.h; sourceTree = "<group>"; };
-		C91C8CAD21B7A98300952B31 /* CyRefreshFooterBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CyRefreshFooterBaseView.m; sourceTree = "<group>"; };
-		C91C8CAF21B7AB7800952B31 /* CyRefreshBaseData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CyRefreshBaseData.h; sourceTree = "<group>"; };
-		C91C8CB021B7D08E00952B31 /* CyRefreshFooterDefaultView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CyRefreshFooterDefaultView.h; sourceTree = "<group>"; };
-		C91C8CB121B7D08E00952B31 /* CyRefreshFooterDefaultView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CyRefreshFooterDefaultView.m; sourceTree = "<group>"; };
+		C91C8E2221BA099700952B31 /* CaseyRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseyRefresh.h; sourceTree = "<group>"; };
+		C91C8E2421BA099700952B31 /* CyRefreshBaseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyRefreshBaseData.h; sourceTree = "<group>"; };
+		C91C8E2521BA099700952B31 /* UIScrollView+CyInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+CyInsets.h"; sourceTree = "<group>"; };
+		C91C8E2621BA099700952B31 /* UIScrollView+CyInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CyInsets.m"; sourceTree = "<group>"; };
+		C91C8E2721BA099700952B31 /* UIScrollView+CyRefreshTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+CyRefreshTable.h"; sourceTree = "<group>"; };
+		C91C8E2821BA099700952B31 /* UIScrollView+CyRefreshTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CyRefreshTable.m"; sourceTree = "<group>"; };
+		C91C8E2921BA099700952B31 /* UIView+CyRefreshFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CyRefreshFrame.h"; sourceTree = "<group>"; };
+		C91C8E2A21BA099700952B31 /* UIView+CyRefreshFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CyRefreshFrame.m"; sourceTree = "<group>"; };
+		C91C8E2C21BA099700952B31 /* CyRefreshFooterBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyRefreshFooterBaseView.h; sourceTree = "<group>"; };
+		C91C8E2D21BA099700952B31 /* CyRefreshFooterBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyRefreshFooterBaseView.m; sourceTree = "<group>"; };
+		C91C8E2E21BA099700952B31 /* CyRefreshFooterDefaultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyRefreshFooterDefaultView.h; sourceTree = "<group>"; };
+		C91C8E2F21BA099700952B31 /* CyRefreshFooterDefaultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyRefreshFooterDefaultView.m; sourceTree = "<group>"; };
+		C91C8E3121BA099700952B31 /* CyRefreshHeaderBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyRefreshHeaderBaseView.h; sourceTree = "<group>"; };
+		C91C8E3221BA099700952B31 /* CyRefreshHeaderBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyRefreshHeaderBaseView.m; sourceTree = "<group>"; };
+		C91C8E3321BA099700952B31 /* CyRefreshHeaderDefaultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyRefreshHeaderDefaultView.h; sourceTree = "<group>"; };
+		C91C8E3421BA099700952B31 /* CyRefreshHeaderDefaultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyRefreshHeaderDefaultView.m; sourceTree = "<group>"; };
 		C9E63A7121B658FE0098628E /* TableRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E63A7421B658FE0098628E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C9E63A7521B658FE0098628E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,13 +57,6 @@
 		C9E63A8C21B65AC60098628E /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		C9E63A8D21B65AC60098628E /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		C9E63A8E21B65AC60098628E /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
-		C9E63AA021B67EF30098628E /* CaseyRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseyRefresh.h; sourceTree = "<group>"; };
-		C9E63AA121B67EF30098628E /* CyRefreshHeaderBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyRefreshHeaderBaseView.h; sourceTree = "<group>"; };
-		C9E63AA221B67EF30098628E /* CyRefreshHeaderBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyRefreshHeaderBaseView.m; sourceTree = "<group>"; };
-		C9E63AAD21B67F670098628E /* UIView+CyRefreshFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CyRefreshFrame.m"; sourceTree = "<group>"; };
-		C9E63AAE21B67F670098628E /* UIView+CyRefreshFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CyRefreshFrame.h"; sourceTree = "<group>"; };
-		C9E63ABA21B681C70098628E /* UIScrollView+CyRefreshTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+CyRefreshTable.h"; sourceTree = "<group>"; };
-		C9E63ABB21B681C70098628E /* UIScrollView+CyRefreshTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CyRefreshTable.m"; sourceTree = "<group>"; };
 		E5FCB65F89956611A022188A /* libPods-TableRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableRefresh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -89,39 +89,51 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		C91C8CA721B7A29C00952B31 /* HeaderView */ = {
+		C91C8E2121BA099700952B31 /* CaseyRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				C9E63AA121B67EF30098628E /* CyRefreshHeaderBaseView.h */,
-				C9E63AA221B67EF30098628E /* CyRefreshHeaderBaseView.m */,
-				C91C8CA821B7A2F600952B31 /* CyRefreshHeaderDefaultView.h */,
-				C91C8CA921B7A2F600952B31 /* CyRefreshHeaderDefaultView.m */,
+				C91C8E2221BA099700952B31 /* CaseyRefresh.h */,
+				C91C8E2321BA099700952B31 /* Category */,
+				C91C8E2B21BA099700952B31 /* FooterView */,
+				C91C8E3021BA099700952B31 /* HeaderView */,
 			);
-			path = HeaderView;
+			path = CaseyRefresh;
 			sourceTree = "<group>";
 		};
-		C91C8CAB21B7A55F00952B31 /* FooterView */ = {
+		C91C8E2321BA099700952B31 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				C91C8CAC21B7A98300952B31 /* CyRefreshFooterBaseView.h */,
-				C91C8CAD21B7A98300952B31 /* CyRefreshFooterBaseView.m */,
-				C91C8CB021B7D08E00952B31 /* CyRefreshFooterDefaultView.h */,
-				C91C8CB121B7D08E00952B31 /* CyRefreshFooterDefaultView.m */,
+				C91C8E2421BA099700952B31 /* CyRefreshBaseData.h */,
+				C91C8E2521BA099700952B31 /* UIScrollView+CyInsets.h */,
+				C91C8E2621BA099700952B31 /* UIScrollView+CyInsets.m */,
+				C91C8E2721BA099700952B31 /* UIScrollView+CyRefreshTable.h */,
+				C91C8E2821BA099700952B31 /* UIScrollView+CyRefreshTable.m */,
+				C91C8E2921BA099700952B31 /* UIView+CyRefreshFrame.h */,
+				C91C8E2A21BA099700952B31 /* UIView+CyRefreshFrame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C91C8E2B21BA099700952B31 /* FooterView */ = {
+			isa = PBXGroup;
+			children = (
+				C91C8E2C21BA099700952B31 /* CyRefreshFooterBaseView.h */,
+				C91C8E2D21BA099700952B31 /* CyRefreshFooterBaseView.m */,
+				C91C8E2E21BA099700952B31 /* CyRefreshFooterDefaultView.h */,
+				C91C8E2F21BA099700952B31 /* CyRefreshFooterDefaultView.m */,
 			);
 			path = FooterView;
 			sourceTree = "<group>";
 		};
-		C91C8CB321B7D73C00952B31 /* Category */ = {
+		C91C8E3021BA099700952B31 /* HeaderView */ = {
 			isa = PBXGroup;
 			children = (
-				C9E63AAE21B67F670098628E /* UIView+CyRefreshFrame.h */,
-				C9E63AAD21B67F670098628E /* UIView+CyRefreshFrame.m */,
-				C9E63ABA21B681C70098628E /* UIScrollView+CyRefreshTable.h */,
-				C9E63ABB21B681C70098628E /* UIScrollView+CyRefreshTable.m */,
-				C91C8CA421B765FD00952B31 /* UIScrollView+CyInsets.h */,
-				C91C8CA521B765FD00952B31 /* UIScrollView+CyInsets.m */,
+				C91C8E3121BA099700952B31 /* CyRefreshHeaderBaseView.h */,
+				C91C8E3221BA099700952B31 /* CyRefreshHeaderBaseView.m */,
+				C91C8E3321BA099700952B31 /* CyRefreshHeaderDefaultView.h */,
+				C91C8E3421BA099700952B31 /* CyRefreshHeaderDefaultView.m */,
 			);
-			path = Category;
+			path = HeaderView;
 			sourceTree = "<group>";
 		};
 		C9E63A6821B658FE0098628E = {
@@ -154,24 +166,12 @@
 				C9E63A7F21B658FF0098628E /* LaunchScreen.storyboard */,
 				C9E63A8C21B65AC60098628E /* SecondViewController.h */,
 				C9E63A8D21B65AC60098628E /* SecondViewController.m */,
-				C9E63A9F21B67EF30098628E /* Refresh */,
+				C91C8E2121BA099700952B31 /* CaseyRefresh */,
 				C9E63A8E21B65AC60098628E /* SecondViewController.xib */,
 				C9E63A8221B658FF0098628E /* Info.plist */,
 				C9E63A8321B658FF0098628E /* main.m */,
 			);
 			path = TableRefresh;
-			sourceTree = "<group>";
-		};
-		C9E63A9F21B67EF30098628E /* Refresh */ = {
-			isa = PBXGroup;
-			children = (
-				C9E63AA021B67EF30098628E /* CaseyRefresh.h */,
-				C91C8CAF21B7AB7800952B31 /* CyRefreshBaseData.h */,
-				C91C8CB321B7D73C00952B31 /* Category */,
-				C91C8CAB21B7A55F00952B31 /* FooterView */,
-				C91C8CA721B7A29C00952B31 /* HeaderView */,
-			);
-			path = Refresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,17 +294,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C91C8CAE21B7A98300952B31 /* CyRefreshFooterBaseView.m in Sources */,
-				C9E63AB921B681790098628E /* CyRefreshHeaderBaseView.m in Sources */,
-				C91C8CAA21B7A2F600952B31 /* CyRefreshHeaderDefaultView.m in Sources */,
-				C9E63AAF21B67F670098628E /* UIView+CyRefreshFrame.m in Sources */,
+				C91C8E3721BA099700952B31 /* UIView+CyRefreshFrame.m in Sources */,
+				C91C8E3521BA099700952B31 /* UIScrollView+CyInsets.m in Sources */,
 				C9E63A8F21B65AC60098628E /* SecondViewController.m in Sources */,
-				C91C8CB221B7D08E00952B31 /* CyRefreshFooterDefaultView.m in Sources */,
+				C91C8E3621BA099700952B31 /* UIScrollView+CyRefreshTable.m in Sources */,
+				C91C8E3821BA099700952B31 /* CyRefreshFooterBaseView.m in Sources */,
+				C91C8E3921BA099700952B31 /* CyRefreshFooterDefaultView.m in Sources */,
 				C9E63A7921B658FE0098628E /* ViewController.m in Sources */,
 				C9E63A8421B658FF0098628E /* main.m in Sources */,
-				C9E63ABC21B681C70098628E /* UIScrollView+CyRefreshTable.m in Sources */,
+				C91C8E3A21BA099700952B31 /* CyRefreshHeaderBaseView.m in Sources */,
+				C91C8E3B21BA099700952B31 /* CyRefreshHeaderDefaultView.m in Sources */,
 				C9E63A7621B658FE0098628E /* AppDelegate.m in Sources */,
-				C91C8CA621B765FD00952B31 /* UIScrollView+CyInsets.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
